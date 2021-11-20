@@ -24,7 +24,9 @@ fetch('https://jsonplaceholder.typicode.com/users')
     for (let i = 0; i < json.length; i++) {
       console.log(i);
       var mydiv = document.createElement('div');
-      mydiv.className = "col-lg-3 col-md-6 d-flex align-items-stretch"
+      mydiv.className = "col-lg-3 col-md-6 d-flex align-items-stretch";
+      currentContent = OriginalContent;
+      currentContent = currentContent.replace('XXXX',json[i].name);
       mydiv.innerHTML = OriginalContent;
       MyRow.appendChild(mydiv);
     }
