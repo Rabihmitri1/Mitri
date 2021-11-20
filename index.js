@@ -27,6 +27,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
       mydiv.className = "col-lg-3 col-md-6 d-flex align-items-stretch";
       currentContent = OriginalContent;
       currentContent = currentContent.replace('XXXX',json[i].name);
+      currentContent = currentContent.replace('YYYY',json[i].position);
+      currentContent = currentContent.replace('ZZZZ',json[i].url);
       mydiv.innerHTML = OriginalContent;
       MyRow.appendChild(mydiv);
     }
