@@ -1,0 +1,19 @@
+.rabih{
+   height: 5px;
+   width: 5px;
+}
+
+.edgard{
+    height: 5px;
+    width: 5px;
+}
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 80px 200px;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }

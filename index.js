@@ -8,7 +8,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
         <img src="https://scontent.fbey5-2.fna.fbcdn.net/v/t1.6435-9/87990765_2604292406363761_5131218795993497600_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=XWiPID7M3CkAX93w7ic&_nc_ht=scontent.fbey5-2.fna&oh=f38db5decee826db15bfcca463f22bab&oe=61B90FD3" class="img-fluid" alt="">
         <div class="social">
           <a href=""><i class="bi bi-twitter"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
           <a href=""><i class="bi bi-instagram"></i></a>
           <a href=""><i class="bi bi-linkedin"></i></a>
         </div>
